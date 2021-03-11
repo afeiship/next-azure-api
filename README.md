@@ -27,10 +27,10 @@ nx.rc(null);
 
 ```jsx
 <nx.$rc.layout value="lr">
-  <aside>
-  Sidebar
+  <aside className="is-sidebar">
+    Sidebar
   </aside>
-  <div>
+  <div className="is-main">
     <p>Main Content.</p>
     <nx.$rc.blank value={10} />
     <p>Sub content.</p>
@@ -39,11 +39,11 @@ nx.rc(null);
 ```
 
 ## preset
-- @jswork/react-blank 
-- @jswork/react-status-manager 
-- @jswork/react-condition-manager 
-- @jswork/react-if-else
-- @jswork/react-layout-trbla
+- [@jswork/react-blank](https://github.com/afeiship/react-blank) 
+- [@jswork/react-status-manager](https://github.com/afeiship/react-status-manager)
+- [@jswork/react-condition-manager](https://github.com/afeiship/react-condition-manager)
+- [@jswork/react-if-else](https://github.com/afeiship/react-if-else)
+- [@jswork/react-layout-trbla](https://github.com/afeiship/react-layout-trbla)
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-rc/blob/master/LICENSE.txt).
