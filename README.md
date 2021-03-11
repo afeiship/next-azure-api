@@ -43,6 +43,7 @@ nx.rc(null);
 - @jswork/react-status-manager 
 - @jswork/react-condition-manager 
 - @jswork/react-if-else
+- @jswork/react-layout-trbla
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-rc/blob/master/LICENSE.txt).
