@@ -27,11 +27,9 @@ nx.rc(null);
 ```
 
 ## preset
-- [@jswork/react-blank](https://github.com/afeiship/react-blank) 
 - [@jswork/react-status-manager](https://github.com/afeiship/react-status-manager)
 - [@jswork/react-condition-manager](https://github.com/afeiship/react-condition-manager)
 - [@jswork/react-if-else](https://github.com/afeiship/react-if-else)
-- [@jswork/react-layout-trbla](https://github.com/afeiship/react-layout-trbla)
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-rc/blob/master/LICENSE.txt).
