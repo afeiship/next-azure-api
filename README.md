@@ -12,12 +12,6 @@ npm install -S @jswork/next-rc
 ```
 
 ## usage
-
-```scss
-@import "~@jswork/react-layout-trbla/dist/style.scss";
-@import "~@jswork/react-blank/dist/style.scss";
-```
-
 ```js
 import '@jswork/next-rc';
 
@@ -26,16 +20,10 @@ nx.rc(null);
 ```
 
 ```jsx
-<nx.$rc.layout value="lr">
-  <aside className="is-sidebar">
-    Sidebar
-  </aside>
-  <div className="is-main">
-    <p>Main Content.</p>
-    <nx.$rc.blank value={10} />
-    <p>Sub content.</p>
-  </div>
-</nx.$rc.layout>
+<nx.$rc.rcm items={[cnd1, cnd2 ]}>
+  <div> view1 </dvi>
+  <div> view2 </dvi>
+</nx.$rc.rcm>
 ```
 
 ## preset
